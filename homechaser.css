@@ -1,0 +1,360 @@
+
+body
+{
+    background: black;
+    background-color: black;
+}
+
+
+#imglogo
+{
+    height: 90px;
+    width: 100%;
+}
+
+
+#homet{
+position: absolute;
+top: 3%;
+left: 28%;
+color: white;
+text-decoration: none;
+}
+
+
+.dropdown{
+    position: absolute;
+    display: block;
+    top: 6px;
+    left:38%;
+}
+
+#galt{
+    position: absolute;
+    display: inline-block;
+    text-align:center;
+    color: white;
+    text-decoration: none;
+    }
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+.dropdown-content a:hover {
+    color: yellow;
+    background-color: #2b2929;
+}
+
+#chart{
+position: absolute;
+text-align:none;
+top: 3%;
+left: 46%;
+color: white;
+text-decoration: none;
+}
+#loret{
+position: absolute;
+text-align:none;
+top: 3%;
+left: 58%;
+color: white;
+text-decoration: none;
+}
+
+#pret{
+position: absolute;
+text-align: none;
+right: 7%;
+top: 3%;
+color: black;
+text-decoration: none;
+}
+
+#events{
+position: absolute;
+text-align:none;
+top: 3%;
+left: 66%;
+color: white;
+text-decoration: none;
+}
+
+
+#homet:hover{
+position: absolute;
+top: 3%;
+left: 28%;
+color: yellow;
+text-decoration: none;
+}
+
+#chart:hover{
+position: absolute;
+text-align: none;
+top: 3%;
+left: 46%;
+color: yellow;
+text-decoration: none;
+}
+#loret:hover{
+position: absolute;
+
+top: 3%;
+left: 58%;
+color: yellow;
+text-decoration: none;
+}
+#pret:hover{
+position: absolute;
+text-align: none;
+right: 7%;
+top: 3%;
+color: white;
+text-decoration: none;
+}
+
+#events:hover{
+    position: absolute;
+text-align:none;
+top: 3%;
+left: 66%;
+color: yellow;
+text-decoration: none;
+}
+
+#footlogo{
+
+height: 5%;
+width: 5%;
+
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+div#slider {
+overflow: hidden; }
+div#slider figure img {
+     width: 20%; 
+     float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+#badan{
+    width: 1000px;
+    margin-left: 25%;
+}
+
+#mainBody{
+        text-align: center;
+        border-radius: 2%;
+        border-width: 5px;
+        border-style: solid;
+        border-color: limegreen;
+    }
+
+#badan{
+        font-size: 30px;
+        color: wheat;
+}
+
+#textf{
+    position: relative;
+    color: white;
+    text-align: center;
+    
+}
+
+    #item{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    #item1{
+        border-radius: 5%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #item2{
+        border-radius: 5%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #item3{
+        border-radius: 5%;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    
+    #item:hover{
+        width: 300px;
+        height: 300px;
+    }
+    #item1:hover{
+        width: 404px;
+        height: 260px;
+    }
+
+    #item2:hover{
+        width: 800px;
+        height: 280px;
+    }
+
+    #item3:hover{
+        width: 500px;
+        height: 500px;
+    }
+
+
+    #des{
+        font-size: 30px;
+        color: white;
+    }
+
+    #img1{
+        margin-top: 10px;
+        width: 300px;
+    }
+    #img2{
+        margin-top: 10px;
+        width: 6%;
+    }
+    
+#name1{
+    font-size: large;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+    
+#desc {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+    #headline{
+        font-size: 50px;
+        color: red;
+    }
+
+    #name{
+        font-size: 30px;
+        color: yellow;
+    }
+
+    #linkf{
+        
+        color: yellow;
+        text-decoration: none;
+    }
+    #linkf:hover{
+color: green;
+text-decoration: none;
+}
+
+#foot{
+    background-color: olive;
+    position: flex;
+}
+
+#linkf1{
+        
+        color: white;
+        text-decoration: none;
+    }
+
+.reg{
+    color:white
+}
+
+.Registerbtn {
+    background: grey;
+    padding : 19px 50px 18px 39px;
+    border: 1px solid white;
+    border-width: 1px 1px 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 109%;
+    box-shadow: 0 -1px 0 rgba(0,0,0,0.3) inset;
+    margin-bottom: 10px;
+
+}
+
+fieldset{
+    box-sizing: border-box;
+}
+
+
+form{
+    max-width: 300px;
+    margin: 10px auto;
+    padding : 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+select {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin :0 ;
+    outline :0;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.3) inset;
+    margin-bottom: 30px;
+}
+
+
+
+input[type="radio"]{
+    margin : 0 4px 8px 0;
+}
+

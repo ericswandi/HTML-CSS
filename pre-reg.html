@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre Registration</title>
+    <link rel="stylesheet" href="homechaser.css">
+    <script type="text/javascript" src="regiscript.js"></script>
+
+        
+</head>
+
+
+<body>
+    <!-- banner&nav -->
+    <div id="header">
+        <span id="logo">
+            <img id="imglogo" src="header.png" alt="">
+        </span>
+        <span id="home">
+            <a id="homet" href="home.html">HOME</a>
+        </span>
+        
+        <span class="dropdown">
+            <p id="galt"></a>Galleries</p>
+            <div class="dropdown-content">
+                <a href="galleries.html">Maps</a>
+                <a href="kanzuki.html">Kanzuki Estate</a>
+                <a href="fr.html">Forgotten Realm</a>
+                <a href="md.html">Mishima Dojo</a>
+                <a href="devils.html">Devil's Pit</a>
+            </div>
+        </span>
+        <span id="char">
+            <a id="chart" href="characters.html">CHARACTERS</a>
+        </span>
+        <span id="lore">
+            <a id="loret" href="lore.html">LORE</a>
+        </span>
+    
+        <span>
+            <a id="pret" href="pre-reg.html">PRE REGISTER</a>
+        </span>
+    
+        <span>
+            <a id="events" href="events.html">EVENTS  </a>
+        </span>
+        </div>
+    
+        <fieldset>
+                <form action="home.html" class="regForm">
+                <div class="reg">
+                    <h1>Register Form</h1><br>
+                        <label for="Fullname">Username</label><br>
+                        <input type="text" id="txtUname" placeholder="Input Username"><br>
+
+                        <div class="err-Uname"></div>
+                        <br>
+
+                        <label for="email">Email</label><br>
+                        <input type="text" id="txtemail" placeholder="Input Email"><br>
+
+                        <div class="err-email"></div>
+                        <br>
+
+                        <label for="Password" >Password</label><br>
+                        <input type="password" id="txtpass" placeholder="Input Password"><br>
+                        
+                        <div class="err-pass"></div>
+                        <br>
+
+                        <label for="Verify Password">Verify Password</label><br>
+                        <input type="password" id="txtpassconf" placeholder="Verify Password"><br>
+                        
+                        <div class="err-passconf"></div>
+                        <br>
+
+                        <label for="Gender" >Gender: </label><br><br>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label class="light" for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label class="light" for="male">Female </label><br>
+                            
+                            <div class="err-gender"></div>
+                            <br>
+
+                        <label for="DateofBirth">Date of Birth</label><br>
+                        <input type="date" id="DoB" name="DateofBirth"><br>
+                        <div class="err-DoB"></div>
+                        <br>
+                        
+                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                    
+                    <button type="submit" onclick="submit()" class="Registerbtn" >Submit</button>
+                    
+                <br><br>
+                <br><br>
+                </form>
+            </div>
+            
+        </fieldset>
+                
+
+    
+
+
+    <div>
+        <div id="foot">
+            <span>
+                <img id="footlogo" src="logof.png" alt="">
+            </span>
+            
+            <span>
+                <div id="footet">
+                <div>
+                        <div id="linkf1" id="textf">
+                            Xtream Chaser
+                        </div>
+                        
+                        <div>
+                            <a id="linkf" href="http://">GAME</a>
+                        </div>
+                        <div>
+                            <a id="linkf" href="http://">BERITA</a>
+                        </div>
+                        <div>
+                            <a id="linkf" href="http://">RANK</a>
+                        </div>
+                        <div>
+                            <a id="linkf" href="http://">MEDIA</a>
+                        </div>
+                        <div>
+                            <a id="linkf" href="http://">E-SPORT</a>
+                        </div>
+                        <div>
+                            <a id="linkf" href="http://">FAQ</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </span>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+.reg{
+    color:white
+}
+
+.Registerbtn {
+    background: grey;
+    padding : 16px 100p x;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    opacity: 0.9;
+}
+.mBody{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: limegreen;
+}
+
+
+.in-container{
+    display: flex;
+    flex-direction: column;
+    padding : 0 50px;
+    height : 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} 
